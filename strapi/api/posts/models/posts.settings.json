@@ -16,7 +16,7 @@
       "type": "richtext"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -27,8 +27,8 @@
       "required": false
     },
     "comments": {
-      "via": "post",
-      "collection": "comments"
+      "collection": "comments",
+      "via": "post"
     }
   }
 }

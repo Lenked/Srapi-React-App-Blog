@@ -10,6 +10,11 @@
     },
     {
       "method": "GET",
+      "path": "/posts/:id/comments",
+      "handler": "posts.comments"
+    },
+    {
+      "method": "GET",
       "path": "/posts/count",
       "handler": "posts.count",
       "config": {
